@@ -30,7 +30,7 @@ const authentication = (req, res, next) => {
   if (role === "Manager" ) {
     next();
   } else {
-    res.status(400).json("Manager Only!");
+    res.status(400).json("Manager Only who can acces!");
   }
 };
 
