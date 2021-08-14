@@ -1,12 +1,13 @@
 const express = require("express");
 const app = express();
-require("dotenv").config();
+require("dotenv").config({path: '.env'});
 
 const PORT = process.env.PORT || 4000;
 
 const errorHandling = require('./middlewares/errorHandling')
-const router = require("./routes");
+const router = require('./routes');
 
+// app.use('/', routes)
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 

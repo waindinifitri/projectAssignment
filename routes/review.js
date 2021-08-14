@@ -1,7 +1,7 @@
-const { Router } = require('express');
-const router = Router();
-const {reviewController} = require('../controllers/review')
+const express = require("express");
+const router = express.Router();
 
+const {reviewController} = require('../controllers/review')
 const { authentication, authorization } = require('../middlewares/auth')
 
 router.get('/list',authentication,authorization,reviewController.getReview)

@@ -1,5 +1,6 @@
-const { Router } = require('express');
-const router = Router();
+const express = require("express");
+const router = express.Router();
+
 const {typeController} = require('../controllers/type')
 const {taskController} = require('../controllers/task');
 const { authentication, authorization } = require('../middlewares/auth');
