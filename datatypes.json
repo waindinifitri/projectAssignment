@@ -1,0 +1,18 @@
+[
+    {   
+        "typName" : "Add New feature",
+        "duration": "adjustment",
+        "blockers": "adjustment",
+        "actual_start": "real-time",
+        "actual_finish": "real_time",
+        "source": "adjustment"
+    },
+    {   
+        "typName" : "Bug Fixing",
+        "duration": "adjustment",
+        "blockers": "adjustment",
+        "actual_start": "real-time",
+        "actual_finish": "real_time",
+        "source": "adjustment"
+    }
+]

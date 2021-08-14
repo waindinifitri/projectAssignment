@@ -29,16 +29,8 @@ module.exports = (sequelize, DataTypes) => {
       type : DataTypes.STRING,
       validate :{
         notEmpty: {
-          msg : "Please input the picture here."
+          msg : "You can input the wireframe here."
         }
-      }
-    },
-    type:{
-      type : DataTypes.STRING,
-      validate : {
-        notEmpty : {
-            msg : "What is the type of this task, please?",
-        },
       }
     },
     status: {

@@ -1,17 +1,17 @@
-const express = require('express');
+const express = require("express");
 const app = express();
-const PORT = 3000;
+require("dotenv").config();
 
+const PORT = process.env.PORT || 4000;
 
-const router = require('./routes/index')
+const errorHandling = require('./middlewares/errorHandling')
+const router = require("./routes");
 
-//Middlewares
-app.set('view engine', 'ejs');
 app.use(express.json());
-app.use(express.urlencoded({ extended:false}));
+app.use(express.urlencoded({ extended: true }));
+
 app.use(router);
 
-
 app.listen(PORT, () => {
-    console.log("Server running at port : ", PORT);
+	console.log(`This Server brought you by port : ${PORT}`);
 });

@@ -1,0 +1,55 @@
+[
+
+    {
+        "title": "Add New Feature",
+        "picture": "will get in touch soon",
+        "status": "major-urgent",
+        "priority": "P1",
+        "product_manager": "Manager", 
+        "engineers": "Waindini Nur Fitri",
+        "product": "Procurement",
+        "typeId": 1
+    },
+
+    {
+        "title": "Bug Fixing",
+        "picture": "will get in touch soon",
+        "status": "major-urgent",
+        "priority": "P1",
+        "product_manager": "Manager", 
+        "engineers": "Waindini Nur Fitri",
+        "product": "Procurement",
+        "typeId": 2
+    },
+    {
+        "title": "Bug Fixing",
+        "picture": "will get in touch soon",
+        "status": "minor-urgent",
+        "priority": "P2",
+        "product_manager": "Manager", 
+        "engineers": "Waindini Nur Fitri",
+        "product": "Procurement",
+        "typeId": 2
+    },
+    {
+        "title": "Add New Feature",
+        "picture": "will get in touch soon",
+        "status": "major-urgent",
+        "priority": "P1",
+        "product_manager": "Manager", 
+        "engineers": "Waindini Nur Fitri",
+        "product": "Operation-Apps",
+        "typeId": 1
+    },
+    {
+        "title": "Add New Feature",
+        "picture": "will get in touch soon",
+        "status": "minor-urgent",
+        "priority": "P3",
+        "product_manager": "Manager", 
+        "engineers": "Waindini Nur Fitri",
+        "product": "Operation-Apps",
+        "typeId": 1
+    }
+
+]
